@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सर्जकहरूको कक्ष</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FAF3E0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Header Style */
+        .header {
+            background: linear-gradient(to right, #191970, #800080);
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Arial', sans-serif;
+        }
+        .header h1 {
+            font-size: 28px;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            letter-spacing: 2px;
+        }
+        .header p {
+            font-size: 18px;
+            margin: 10px 0;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        .creators-container {
+            margin: 10px auto;
+            width: 95%;
+            max-width: 500px; /* Focus on mobile screen width */
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #creators-header {
+            padding: 10px;
+            background-color: #191970;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .creator-post {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .creator-post img {
+            width: 100%; /* Make the image occupy full container width */
+            max-width: 300px; /* Ensure it doesn't exceed a manageable size */
+            height: auto;
+            border-radius: 5px;
+            margin: 0 auto;
+            display: block; /* Center-align the image */
+            cursor: pointer; /* Change cursor to pointer for clickability */
+        }
+
+        .creator-post h3 {
+            color: #191970;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .creator-post p {
+            color: #555;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .creator-post a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .creator-post a:hover {
+            text-decoration: underline;
+        }
+
+        /* Adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .creators-container {
+                padding: 8px;
+            }
+
+            .creator-post {
+                padding: 8px;
+            }
+
+            .creator-post h3 {
+                font-size: 16px;
+            }
+
+            .creator-post p {
+                font-size: 12px;
+            }
+
+            .creator-post img {
+                max-width: 250px; /* Further reduce image size on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>मिथिला पंचांग पात्रो</h1>
+        <p>आफ्नो दिनलाई अझ राम्रो बनाउनुहोस्!</p>
+    </div>
+
+    <!-- Creators Container -->
+    <div class="creators-container">
+        <div id="creators-header">
+            <span>सर्जकहरूको कक्ष</span>
+        </div>
+        <div id="creator-posts">
+            <div class="creator-post">
+                <a href="post.html?id=1">
+                    <img src="moti.png" alt="MOTI KARN">
+                </a>
+                <h3>चाहना</h3>
+                <p>"शिवशक्ति" मिथिला कला के एक महत्वपूर्ण चित्रकारी है।</p>
+                <a href="post.html?id=1">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=2">
+                    <img src="sangor.png" alt="सपना चित्रकला">
+                </a>
+                <h3>संगोर</h3>
+                <p>"संगोर" रमेश रंजन झा द्वारा लिखल गेल एक मैथिली उपन्यास अछि।</p>
+                <a href="post.html?id=2">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=3">
+                    <img src="shalini.png" alt="कविता र संगीत">
+                </a>
+                <h3>Fisherman</h3>
+                <p>Shalini Karn के "Fisherman" Mithila कला में एक आधुनिक चित्रण अछि।</p>
+                <a href="post.html?id=3">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=4">
+                    <img src="rebati.png" alt="सचित्र गाथा">
+                </a>
+                <h3> Rewati Mandal </h3>
+                <p> Rewati Mandal के "गाय आ ओकर बाछा" चित्रक कथा मिथिला कला के एक महत्वपूर्ण पहलु अछि।</p>
+                <a href="post.html?id=4">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=5">
+                    <img src="fish.png" alt="संगीत र परिप्रेक्ष्य">
+                </a>
+                <h3>पारोट अन्तर्विन्दित</h3>
+                <p>"पारोट अन्तर्विन्दित" (Parrot Intertwined) एक उत्कृष्ट मिथिला कला के उदाहरण अछि।</p>
+                <a href="post.html?id=5">अधिक पढ्नुहोस्</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
